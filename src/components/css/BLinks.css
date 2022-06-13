@@ -1,0 +1,24 @@
+.links--main {
+  position: fixed;
+  display: flex;
+  bottom: 0px;
+  right: 0px;
+}
+
+.contacts--link {
+  width: 48px;
+  border: solid rgba(61, 68, 61, 0.76) 2px;
+  border-radius: 100%;
+  background: rgba(148, 156, 148, 0.76) 2px;
+  padding: 4px;
+}
+
+.links--main-link {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.contacts--link:hover {
+  cursor: pointer;
+  background: coral;
+}
