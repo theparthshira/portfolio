@@ -1,0 +1,133 @@
+<div class="userbox">
+
+<style>
+    .title-photo input.upload-photo {
+        color: black;
+        height: 2em;
+        line-height: 1.5em;
+        font-size: 0.75em;
+        margin: 0.5em 0.5em 0.5em 0;
+    }
+    .title-photo .badge {
+        position: absolute;
+        bottom: -30px;
+        transform: scale(0.75);
+    }
+</style>
+
+<div class="title-photo">
+    <div style="float:right;border:1px solid #B9B9B9;width:300px;min-height:150px;padding:12.5px;position: relative;margin-bottom: 1em;">
+    <div>
+        <div style="min-height:200px;line-height:200px;text-align:center;">
+<img style="margin:auto;vertical-align:middle;display:inline;" src="https://userpic.codeforces.org/2374185/title/f04c2230f2e16215.jpg">        </div>
+    </div>
+        <div class="smaller" style="text-align:center;margin-top: 1em;">
+            <a id="change-title-photo" href="#">Change photo</a>
+        </div>
+        <div class="change-title-photo-form" style="padding:1em 1em 0 1em;display:none;">
+            <form enctype="multipart/form-data" method="post" action="?csrf_token=b80555af9f3412ebbbd2dbd5c5c54345"><input type="hidden" name="csrf_token" value="b80555af9f3412ebbbd2dbd5c5c54345">
+                <input type="hidden" name="action" value="changeTitlePhoto">
+                <input type="file" name="titlePhoto" value="Choose file">
+                <div style="font-size:0.8em;">
+        <span class="notice for__titlePhoto">Do not be shy. Your face should be clearly visible in the photo.</span>
+                </div>
+                <hr>
+                <input style="padding: 0 1em;" type="submit" class="upload-photo" value="Upload">
+            <input type="hidden" name="_tta" value="332"></form>
+        </div>
+    </div>
+</div>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    function showChangeTitlePhotoForm() {
+        $("#change-title-photo").hide();
+        $(".change-title-photo-form").slideDown();
+    }
+
+    $("input.upload-photo").click(function () {
+        return confirm("Image can't contain offensive, rough or uncultured things. Also it can't contain anyone photo except you.\n\nDo you confirm that the image meets these criteria?");
+    });
+
+    $("#change-title-photo").click(function () {
+        showChangeTitlePhotoForm();
+    });
+
+        });
+    </script>
+        <div class="info" style="position: relative;">
+            <div class="main-info ">
+                <div class="user-rank">
+                    <span class="user-cyan">Specialist </span>
+                </div>
+                <h1>
+<a href="/profile/shirawalaparth" title="Specialist shirawalaparth" class="rated-user user-cyan">shirawalaparth</a>                </h1>
+
+            <div style="margin-top: 0.5em;">
+                <div style="font-size: 0.8em; color: #777;">Parth Shirawala, <a href="/ratings/country/India/city/Surat">Surat</a>, <a href="/ratings/country/India">India</a></div>
+                <div style="font-size: 0.8em; color: #777;">From <a href="/ratings/organization/30892">BMCET</a></div>
+            </div>
+            </div>
+            <ul>
+                    <li>
+                            <img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/rating-24x24.png" alt="User''s contest rating in Codeforces community" title="User''s contest rating in Codeforces community">
+                        
+                            Contest rating:
+
+                        <span style="font-weight:bold;" class="user-cyan">1475</span> <span class="smaller"> (max. <span style="font-weight:bold;" class="user-cyan">specialist, </span> <span style="font-weight:bold;" class="user-cyan">1475</span>)</span>                    </li>
+                    <li>
+                            <img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/star_blue_24.png" alt="User''s contribution into Codeforces community" title="User''s contribution into Codeforces community">
+                        
+                            Contribution:
+
+                        <span style="color:gray;font-weight:bold;">0</span>                    </li>
+                    <li>
+                            <img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/star_yellow_24.png">
+                        
+
+                        Friend of: 0 users                    </li>
+                    <li>
+                            <a href="/friends"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/star_yellow_24.png"></a>
+                        
+
+                        <a href="/friends">My friends</a>                    </li>
+                    <li>
+                            <a href="/settings/general"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/settings.png" alt="Change settings" title="Change settings"></a>
+                        
+
+                        <a href="/settings/general">Change settings</a>                    </li>
+                    <li>
+                            <img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/mail.png" alt="Email" title="Email">
+                        
+
+                        shirawalaparth@gmail.com                    </li>
+                    <li>
+                        
+                            Last visit:
+
+                        <span style="color:green;font-weight:bold;">online now</span>                    </li>
+                    <li>
+                        
+                            Registered:
+
+                        <span class="format-humantime" title="19.05.2003 00:00 UTC+5.5">6 months ago</span>                    </li>
+                    <li>
+                            <a href="/blog/shirawalaparth"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/icons/blog.png" alt="shirawalaparth's blog" title="shirawalaparth's blog"></a>
+                        
+
+                        <a href="/blog/shirawalaparth">Blog entries (0)</a>,
+                                    <a href="/comments/with/shirawalaparth">comments</a>
+                    </li>
+                    <li>
+                            <a href="/blog/entry/new/266321"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/actions/new_topic.png" alt="Write new entry?" title="Write new entry?"></a>
+                        
+
+                        <a href="/blog/entry/new/266321">Write new entry</a>                    </li>
+                    <li>
+                            <a href="/usertalk"><img style="vertical-align:middle;margin-right:0.5em;" src="//codeforces.org/s/23633/images/actions/mail_generic.png" alt="View shirawalaparth's talks" title="View shirawalaparth's talks"></a>
+                        
+
+                        <a href="/usertalk">View my talks</a>                    </li>
+            </ul>
+        </div>
+    </div>

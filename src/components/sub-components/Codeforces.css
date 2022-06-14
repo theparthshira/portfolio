@@ -1,0 +1,78 @@
+.container {
+  font-family: verdana, arial, sans-serif;
+  background-color: white;
+  border: #b9b9b9 1px solid;
+  border-radius: 6px;
+  display: grid;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 8% 11% 5% 20% 20%;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "cf_top_rank cf_profile"
+    "cf_username ."
+    "cf_details ."
+    "cf_rating ."
+    "cf_reg .";
+}
+
+.cf_profile {
+  grid-area: cf_profile;
+}
+
+.cf_top_rank {
+  grid-area: cf_top_rank;
+  margin-left: 10px;
+  color: #03a89e;
+  font-size: 60%;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.cf_username {
+  grid-area: cf_username;
+  margin-left: 5px;
+  color: #03a89e;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+.cf_details {
+  grid-area: cf_details;
+  margin-left: 10px;
+  font-size: 45%;
+  color: #727272;
+  /* margin */
+}
+
+.cf_rating {
+  grid-area: cf_rating;
+  margin-left: 10px;
+  font-size: 60%;
+  font-weight: -100;
+  padding-bottom: 10px;
+}
+
+.cf_rating > span {
+  font-size: 80%;
+}
+
+.qq {
+  color: #03a89e;
+  font-weight: 600;
+}
+
+.q1 {
+  color: #03a89e;
+  font-weight: 600;
+  font-size: 80%;
+}
+
+.cf_reg {
+  grid-area: cf_reg;
+  margin-left: 10px;
+}
