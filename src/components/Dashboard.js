@@ -46,7 +46,7 @@ export default function Dashboard() {
 
         let lc_status=false;
 
-        let lc_easy,lc_medium,lc_hard
+        let lc_easy,lc_medium,lc_hard,lc_easy_total,lc_medium_total,lc_hard_total
         let lc_username = "theparthshira"
 
         console.log(lcapi);
@@ -55,6 +55,9 @@ export default function Dashboard() {
             lc_easy = lcapi.easySolved
             lc_medium = lcapi.mediumSolved
             lc_hard = lcapi.hardSolved
+            lc_easy_total = lcapi.totalEasy
+            lc_medium_total = lcapi.totalMedium
+            lc_hard_total = lcapi.totalHard
             lc_status=true;
         }
 
@@ -96,6 +99,9 @@ export default function Dashboard() {
             lc_easy = {lc_easy}
             lc_medium = {lc_medium}
             lc_hard = {lc_hard}
+            lc_easy_total = {lc_easy_total}
+            lc_medium_total = {lc_medium_total}
+            lc_hard_total = {lc_hard_total}
             lc_username = {lc_username}
             />
         }

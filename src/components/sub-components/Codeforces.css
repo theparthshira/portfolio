@@ -1,31 +1,57 @@
-.container {
+.parent {
   font-family: verdana, arial, sans-serif;
   background-color: white;
   border: #b9b9b9 1px solid;
   border-radius: 6px;
-  display: grid;
   padding-left: 5px;
   padding-right: 5px;
   padding-top: 5px;
   padding-bottom: 5px;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 8% 11% 5% 20% 20%;
-  gap: 0px 0px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "cf_top_rank cf_profile"
-    "cf_username ."
-    "cf_details ."
-    "cf_rating ."
-    "cf_reg .";
-}
-
-.cf_profile {
-  grid-area: cf_profile;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 4.5vh 5.5vh 8vh 10vh 8vh 8vh 8vh;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
 }
 
 .cf_top_rank {
-  grid-area: cf_top_rank;
+  grid-area: 1 / 1 / 2 / 2;
+}
+.cf_username {
+  grid-area: 2 / 1 / 3 / 2;
+}
+.cf_details {
+  grid-area: 3 / 1 / 4 / 2;
+}
+.cf_rating {
+  grid-area: 4 / 1 / 5 / 2;
+}
+.cf_mail {
+  grid-area: 5 / 1 / 6 / 2;
+}
+.cf_reg {
+  grid-area: 6 / 1 / 7 / 2;
+}
+.cf_con {
+  grid-area: 7 / 1 / 8 / 2;
+}
+.cf_profile {
+  grid-area: 1 / 2 / 2 / 3;
+}
+
+.cf_profile {
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
+.cf_profile > img {
+  border: 1px solid #b9b9b9;
+  padding: 10px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.cf_top_rank {
   margin-left: 10px;
   color: #03a89e;
   font-size: 60%;
@@ -34,7 +60,6 @@
 }
 
 .cf_username {
-  grid-area: cf_username;
   margin-left: 5px;
   color: #03a89e;
   text-decoration: none;
@@ -42,7 +67,6 @@
 }
 
 .cf_details {
-  grid-area: cf_details;
   margin-left: 10px;
   font-size: 45%;
   color: #727272;
@@ -50,14 +74,17 @@
 }
 
 .cf_rating {
-  grid-area: cf_rating;
   margin-left: 10px;
   font-size: 60%;
   font-weight: -100;
-  padding-bottom: 10px;
 }
 
-.cf_rating > span {
+.cf_rating > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.q2 {
   font-size: 80%;
 }
 
@@ -69,10 +96,33 @@
 .q1 {
   color: #03a89e;
   font-weight: 600;
-  font-size: 80%;
+  font-size: 100%;
 }
 
 .cf_reg {
-  grid-area: cf_reg;
   margin-left: 10px;
+  font-size: 60%;
+  font-weight: -100;
+}
+
+.cf_mail {
+  margin-left: 10px;
+  font-size: 60%;
+  font-weight: -100;
+}
+
+.cf_mail > img {
+  float: left;
+  margin-right: 10px;
+}
+
+.cf_con {
+  margin-left: 10px;
+  font-size: 60%;
+  font-weight: -100;
+}
+
+.cf_con > img {
+  float: left;
+  margin-right: 10px;
 }
