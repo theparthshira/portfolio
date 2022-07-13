@@ -12,16 +12,13 @@
   }
   
   .main--c--shirawala {
-    /* position: absolute;   */
-    /* margin-top: 20vh; */
     font-size: 3.5cm;
-    /* margin-top: 10h; */
     font-weight: 850;
   }
   
   .main--quote {
     /* position: absolute; */
-    margin-left: 20vw;
+    margin-left: 5vw;
     margin-top: 5vh;
     font-size: .75cm;
   }

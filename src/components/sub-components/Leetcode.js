@@ -7,32 +7,6 @@ import march_p from "./../../assets/march.png";
 import april_p from "./../../assets/april.png";
 import may_p from "./../../assets/may.png";
 
-function timeConverter(UNIX_timestamp) {
-  var a = new Date(UNIX_timestamp * 1000);
-  var months = [
-    "Jan",
-    "Feb",
-    "Mar",
-    "Apr",
-    "May",
-    "Jun",
-    "Jul",
-    "Aug",
-    "Sep",
-    "Oct",
-    "Nov",
-    "Dec"
-  ];
-  var year = a.getFullYear();
-  var month = months[a.getMonth()];
-  var date = a.getDate();
-  var hour = a.getHours();
-  var min = a.getMinutes();
-  var sec = a.getSeconds();
-  var time = date + " " + month + " " + year;
-  return time;
-}
-
 function Leetcode(props) {
   if (props.cf_status === false) {
     return (

@@ -25,7 +25,6 @@
   margin-bottom: 5vh;
 }
 
-
 .profile--name {
   margin-left: 100px;
   font-size: 69%;
@@ -39,7 +38,7 @@
 }
 
 .leetcode--profile > img {
-  height: 10vh;
+  height: 80px;
   border-radius: 6px;
   float: left;
 }
@@ -71,7 +70,7 @@
 
 .leetcode_pie {
   grid-area: leetcode_pie;
-  margin-left: 10px; 
+  margin-left: 10px;
 }
 
 .leetcode_easy {
@@ -155,7 +154,7 @@
   justify-content: center;
 }
 
-.leetcode--badges>img {
+.leetcode--badges > img {
   margin-top: 2vh;
   width: 12%;
 }

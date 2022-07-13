@@ -39,9 +39,7 @@ export default function Dashboard() {
     // =====================================================================================
 
         useEffect(() => {
-            fetch("https://leetcode-stats-api.herokuapp.com/theparthshira")
-                .then(response => response.json())
-                .then(messages => setLc(messages));
+            z
         },[])
 
         let lc_status=false;

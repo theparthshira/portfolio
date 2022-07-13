@@ -1,7 +1,7 @@
 .links--main {
   position: fixed;
-  display: flex;
-  bottom: 0px;
+  /* display: flex; */
+  bottom: 10px;
   right: 0px;
 }
 

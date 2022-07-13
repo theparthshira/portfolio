@@ -1,12 +1,11 @@
-import './App.css';
-import Navbar from './components/Navbar';
-import MainApp from './components/MainApp';
-import { BrowserRouter as Router,Route,Switch } from 'react-router-dom'
-import About from './components/About';
-import Dashboard from './components/Dashboard';
-import Projects from './components/Projects';
-import Contacts from './components/Contacts';
-
+import "./App.css";
+import Navbar from "./components/Navbar";
+import MainApp from "./components/MainApp";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import About from "./components/About";
+import Dashboard from "./components/Dashboard";
+import Projects from "./components/Projects";
+import Contacts from "./components/Contacts";
 
 function App() {
   return (
@@ -26,7 +25,7 @@ function App() {
             </Route>
             <Route path="/projects">
               <Projects />
-            </Route>  
+            </Route>
             <Route path="/contacts">
               <Contacts />
             </Route>
